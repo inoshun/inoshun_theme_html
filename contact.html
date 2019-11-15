@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="テンプレートページテンプレートページテンプレートページテンプレートページテンプレートページテンプレートページ">
+    <title>テンプレートページ</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container flex_box">
+        <h1>
+          <a class="logo_link" href="#"><img src="images/logo.png" alt="INONOMAD"></a>
+        </h1>
+        <button class="nav_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="nav">
+        <ul class="nav_lisks">
+          <li>
+            <a href=""><img class="nav_icon" src="images/icon_profile.png">プロフィール<img class="arrow_right" src="images/arrow_right.png"></a>
+            <hr>
+          </li>
+          <li>
+            <a class="modal_btn" data-modal="cate_modal"><img class="nav_icon" src="images/icon_list.png">カテゴリー一覧<img class="arrow_right" src="images/arrow_right.png"></a>
+            <hr>
+          </li>
+          <li>
+            <a href=""><img class="nav_icon" src="images/icon_contact.png">お問い合わせ<img class="arrow_right" src="images/arrow_right.png"></a>
+            <hr>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main id="page_contact">
+      <div class="back_screen"></div>
+      <div id="cate_modal" class="modal_back cate_mdlbck">
+        <div class="modal cate_mdl">
+          <button class="modal_close"><img src="images/icon_close.png"></button>
+          <div class="catelst_cont">
+            <ul class="cate_lists">
+              <li>
+                <a href="#">海外移住</a>
+                <ul>
+                  <li>
+                    <a href="#">セルビア</a>
+                  </li>
+                  <li>
+                    <a href="#">トルコ</a>
+                  </li>
+                  <li>
+                    <a href="#">ハンガリー</a>
+                  </li>
+                  <li>
+                    <a href="#">ボスニア・ヘルツェゴビナ</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">プログラミング</a>
+                <ul>
+                  <li>
+                    <a href="#">HTML5</a>
+                  </li>
+                  <li>
+                    <a href="#">WordPress</a>
+                  </li>
+                  <li>
+                    <a href="#">JavaScript</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">フリーランス</a>
+              </li>
+              <li>
+                <a href="#">雑記</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section id="section_cont" class="section_cont">
+        <div class="container flex_box">
+          <div class="main_cont">
+            <h1>お問い合わせ</h1>
+            <form>
+              <dl>
+                <dt>お名前<span class="required_mark">必須</span></dt>
+                <dd>
+                  <label>
+                    <input type="text" name="" value="">
+                  </label>
+                </dd>
+                <dt>メールアドレス<span class="required_mark">必須</span></dt>
+                <dd>
+                  <label>
+                    <input type="email" name="" value="">
+                  </label>
+                </dd>
+                <dt>お問い合わせ内容<span class="required_mark">必須</span></dt>
+                <dd>
+                  <label>
+                    <textarea></textarea>
+                  </label>
+                </dd>
+              </dl>
+              <input type="submit" name="" value="送信">
+            </form>
+          </div><!-- END main_cont -->
+        </div>
+      </section><!-- END section_cont -->
+    </main>
+    <footer>
+      <div class="container flex_box">
+        <p>Copyright © 2019 INONOMAD <br class="sp">All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/ofi.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/slideSetting.js"></script>
+    <script src="js/scrollArrow.js"></script>
+  </body>
+</html>
